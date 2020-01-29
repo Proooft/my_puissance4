@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Puissance4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script.js">
+        DeferredPermissionRequest
+    </script>
+</head>
+
+<body>
+    <h1>PUISSANCE 4</h1>
+    <div id='setting'>
+        <h3>Choix des couleurs:</h3>
+        <div class="setting-cell">
+            <label for="joueur1">Joueur 1:</label>
+            <select name="joueur1" id="joueur1">
+                <option selected="selected" value="">Choisir une couleur</option>
+                <option value="yellow">jaune</option>
+                <option value="red">rouge</option>
+                <option value="green">vert</option>
+                <option value="blue">bleu</option>
+            </select></div>
+        <div class="setting-cell">
+            <label for="joueur2">Joueur 2:</label>
+            <select name="joueur2" id="joueur2">
+                <option selected="selected" value="">Choisir une couleur</option>
+                <option value="yellow">jaune</option>
+                <option value="red">rouge</option>
+                <option value="green">vert</option>
+                <option value="blue">bleu</option>
+            </select></div>
+        <div class="setting-cell">
+            <button class="start" onclick="start()">Start !</button>
+        </div>
+    </div>
+    <div id="score">
+        <div id="scorej1">
+            <div>J1</div>
+            <div id="j1">0</div>
+        </div>
+        <div id="scorej2">
+            <div>J2</div>
+            <div id="j2">0</div>
+        </div>
+    </div>
+    <div id="game">
+    </div>
+    <div class="restart">
+        <button id="Restart">Restart</button>
+    </div>
+
+
+
+</body>
+
+</html>

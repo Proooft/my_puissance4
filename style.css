@@ -1,0 +1,109 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+
+h3 {
+    margin: auto;
+}
+
+h1 {
+
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right, red, blue);
+    padding: 10px;
+
+
+}
+
+.restart {
+
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#score {
+
+    display: none;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 75px;
+}
+
+#scorej1 {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    border-top-left-radius: 30px;
+
+    height: 75px;
+    align-items: center;
+
+}
+
+#scorej2 {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 75px;
+
+    border-top-right-radius: 30px;
+    align-items: center;
+}
+
+.red {
+    background: red;
+}
+
+#restart {
+    display: none;
+}
+
+#setting {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 15px;
+}
+
+.setting-cell {
+    padding: 15px;
+    margin: auto;
+}
+
+#game {
+    margin: auto;
+}
+
+#game table {
+    border: 3px white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#game td {
+    box-shadow: inset 4px 4px 10px rgb(53, 53, 53);
+    width: 2cm;
+    height: 2cm;
+    margin: 0px;
+    padding: 0px;
+    border: 2px white;
+    border-radius: 2cm;
+    background-color: rgb(80, 80, 80);
+    cursor: pointer;
+}
+
+#game td.player1 {
+    background-color: red
+}
+
+#game td.player2 {
+    background-color: yellow;
+}
